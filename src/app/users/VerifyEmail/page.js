@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-
+import { Suspense } from "react";
 import {
     ENDPOINTS,
     postJSON,
     saveAuthTokens,
 } from "@/app/Apiconfig";
 
-export default function VerifyEmail() {
+export default function VerifyEmailContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
 
@@ -201,5 +201,13 @@ export default function VerifyEmail() {
 
             </div>
         </div>
+    );
+}
+
+export default function VerifyEmail() {
+    return (
+        <Suspense fallback={<div>Loading verification...</div>}>
+            <VerifyEmailContent />
+        </Suspense>
     );
 }
