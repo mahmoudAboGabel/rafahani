@@ -147,7 +147,7 @@ export default function LessonDetailsContent() {
             </button>
 
             <Link
-              href="/lessons"
+              href="/"
               className="rounded-2xl border border-slate-200 px-6 py-3 font-semibold text-slate-700 transition hover:bg-slate-50"
             >
               العودة للدروس
@@ -190,7 +190,7 @@ export default function LessonDetailsContent() {
         </div>
         <div className="mx-auto max-w-5xl relative z-10">
           <Link
-            href="/lessons"
+            href="/"
             className="mb-6 inline-flex items-center gap-2 text-sm text-amber-200 transition hover:text-white font-medium bg-amber-900/40 px-4 py-2 rounded-xl border border-amber-500/30"
           >
             <span aria-hidden="true">→</span>
@@ -423,7 +423,7 @@ export default function LessonDetailsContent() {
         {/* العودة */}
         <div className="pb-8 text-center pt-4">
           <Link
-            href="/lessons"
+            href="/"
             className="inline-flex items-center justify-center rounded-2xl bg-amber-600 px-8 py-3.5 font-bold text-white transition hover:bg-amber-700 shadow-lg shadow-amber-600/20"
           >
             العودة إلى قائمة الدروس

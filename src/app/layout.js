@@ -125,7 +125,7 @@ export default function RootLayout({ children }) {
               >
                 <div className="flex flex-col items-end">
                   <span className="text-xs sm:text-sm font-black text-slate-900">الدراسات الاجتماعية</span>
-                  <span className="text-[10px] sm:text-xs text-amber-700 font-semibold">الثاني الإعدادي • أ. رقا هاني</span>
+                  <span className="text-[10px] sm:text-xs text-amber-700 font-semibold">الثاني الإعدادي • أ. رفا هاني</span>
                 </div>
                 <div className="w-9 h-9 sm:w-10 sm:h-10 bg-gradient-to-br from-amber-600 to-amber-800 rounded-xl flex items-center justify-center text-white shadow-md shadow-amber-200">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
