@@ -9,7 +9,7 @@ import {
     saveAuthTokens,
 } from "@/app/Apiconfig";
 
-export default function VerifyEmailContent() {
+function VerifyEmailContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
 
